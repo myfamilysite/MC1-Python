@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[9]:
-
-
 # Create a class called Student that encapsulates the following attributes: name, age, and grade
 
 class Student:
@@ -44,9 +38,6 @@ print(user.get_grade())
 print(user.get_school())
 
 print(user.name)
-
-
-# In[ ]:
 
 
 

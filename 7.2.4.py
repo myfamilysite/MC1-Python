@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[11]:
-
-
 class NegativeNumberError(Exception):
     def __init__(self, message):
         self.message = message
@@ -24,16 +18,6 @@ except NegativeNumberError as e:
 except ValueError:
     # This catches errors if the user types a letter instead of a number
    print("Error: Please enter a valid integer.")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 

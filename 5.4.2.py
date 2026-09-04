@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[15]:
-
-
 # Create a set named fruits 
 
 fruits = {"apple", "banana", "cherry", "apple"}
@@ -79,11 +73,6 @@ print(berries)
 result = fruits.symmetric_difference(berries)
 
 print(result)
-
-
-
-# In[ ]:
-
 
 
 

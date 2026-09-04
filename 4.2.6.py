@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Write a function called check_positive that takes a number as an argument. If the number is positive, print "Positive number." If it is zero or negative, return None.
 def check_positive(num):
     if num > 0:
@@ -15,11 +9,6 @@ def check_positive(num):
 check_positive(5)
 check_positive(-3)
 check_positive(0)
-
-
-
-
-# In[ ]:
 
 
 

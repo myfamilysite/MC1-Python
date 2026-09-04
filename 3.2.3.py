@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Loop through numbers from 1 to 10
 for i in range(1, 11):
     # Check if the number is odd using the modulo operator
@@ -15,7 +9,7 @@ for i in range(1, 11):
     print(i)
 
 
-# In[ ]:
+
 
 
 

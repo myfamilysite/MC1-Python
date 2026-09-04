@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 # Create a class called Animal
 class Animal:
     def __init__(self, name):

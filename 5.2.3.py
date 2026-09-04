@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 fruits = ["apple", "banana", "cherry", "date"]
 
 # append "elderberry"

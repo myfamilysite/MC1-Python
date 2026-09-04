@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
-
 try:
     numerator = float(input("Enter the numerator: "))
     denominator = float(input("Enter the denominator: "))

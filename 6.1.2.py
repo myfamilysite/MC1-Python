@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[12]:
-
-
 class Student:
     def __init__(self, name:str, age:int, grade:str):
         self.name = name  # Attribute for student name
@@ -28,11 +22,6 @@ print(student3.get_info())
 
 student1.update_grade("9th Grade")
 print(student1.get_info())
-
-
-
-# In[ ]:
-
 
 
 

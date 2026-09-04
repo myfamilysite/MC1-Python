@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Create the dictionary with the provided data
 student_data = {
     "Emma": {"Math": 90, "Science": 85},
@@ -19,7 +13,6 @@ for student, scores in student_data.items():
     print()  # Adds an empty line for readability between students
 
 
-# In[ ]:
 
 
 

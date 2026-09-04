@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 # Create a Vehicle class with a method fuel_efficiency
 class Vehicle:
     def fuel_efficiency(self):

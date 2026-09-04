@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Initialize the counter variable at 10
 count = 10
 
@@ -22,7 +16,6 @@ while count > 0:
     count -= 1
 
 
-# In[ ]:
 
 
 

@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 # Create a string variable called favorite_quote
 
 favorite_quote = "The only limit to our realisation of tomorrow is our doubts of today."
@@ -18,7 +12,6 @@ combined_quote = favorite_quote + " - " + author
 print (combined_quote)
 
 
-# In[ ]:
 
 
 

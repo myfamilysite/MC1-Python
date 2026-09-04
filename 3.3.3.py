@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Create the dictionary with the specified names and ages
 friends_details = {
     'Alice': 25,
@@ -16,7 +10,6 @@ for name, age in friends_details.items():
     print(f"{name} : {age}")
 
 
-# In[ ]:
 
 
 

@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import unittest
 
 def calculate_average(numbers):
@@ -50,10 +44,5 @@ class TestCalculateAverage(unittest.TestCase):
 # Code to run the tests directly within your Jupyter Notebook
 if __name__ == '__main__': 
     unittest.main()
-
-
-# In[ ]:
-
-
 
 

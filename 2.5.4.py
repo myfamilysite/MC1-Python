@@ -1,10 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[31]:
-
-
 temperature = int(input("What is the temperature?"))
+
 humidity = int(input("What is the humidity?"))
 
 if temperature > 30:

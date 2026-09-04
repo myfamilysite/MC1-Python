@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 # Create a superclass called Account with a method called account_type
 class Account:
     def account_type(self):

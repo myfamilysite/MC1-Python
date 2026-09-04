@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Define a global variable
 score = 10
 
@@ -28,9 +22,6 @@ update_score()
 
 # Print outside the function to prove the global variable was changed
 print("Value outside the function:", score)
-
-
-# In[ ]:
 
 
 

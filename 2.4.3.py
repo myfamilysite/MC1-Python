@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Create a dictionary to store information about a person
 person_info = {
     'name': 'Alice',

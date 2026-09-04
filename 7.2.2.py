@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
 try:
     file = open("data.txt", "r")
     content = file.read()
@@ -17,7 +11,6 @@ finally:
         print("File closed.")
 
 
-# In[ ]:
 
 
 

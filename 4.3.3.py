@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 def get_bonus():
     # Create a local variable inside the function
     bonus_points = 5
@@ -19,7 +13,6 @@ print("The function returned:", result)
 print(bonus_points)
 
 
-# In[ ]:
 
 
 

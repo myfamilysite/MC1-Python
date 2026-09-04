@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-
 # You have a list of dictionaries representing students and their grades. Sort the list by grades in ascending order using a lambda function. 
 
 students = [
@@ -19,8 +13,6 @@ students = [
 sorted_list = sorted(students, key=lambda x:x["grade"])
 print(sorted_list)
 
-
-# In[ ]:
 
 
 

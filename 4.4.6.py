@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Write a lambda function that takes a string and returns its length. Then use this lambda function with the map() function on the following list of strings
 
 words = ["Python", "Lambda", "Functions"]
