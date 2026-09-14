@@ -3,7 +3,8 @@
 yourAge = int(input("Enter your age: "))
 
  # Check if the user is 18 or older
-if age >= 18:
+ 
+if yourAge >= 18:
     print("You are an adult!")
 else:
     print("You are not yet an adult.")
