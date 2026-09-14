@@ -1,9 +1,6 @@
- # Ask the user to enter their age
+ # Ask the user to enter their age and convert to an integer.
  
-yourAge = input("Enter your age: ")
-
-# Convert the input to an integer
-age = int(yourAge)
+yourAge = int(input("Enter your age: "))
 
  # Check if the user is 18 or older
 if age >= 18:
