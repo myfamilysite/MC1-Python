@@ -1,13 +1,7 @@
-i = 10
+total_sum = 0
 
-while i <= 10 and i >= 1:
-    print(i)
-    i -= 1
+for i in range(21):
+    if i % 2 == 0:
+        total_sum += i
 
-
-
-
-
-
-
-
+print("The final sum is:", total_sum)
