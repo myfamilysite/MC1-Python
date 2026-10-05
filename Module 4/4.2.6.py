@@ -7,7 +7,7 @@ def check_positive(num):
 
 # Testing the function
 check_positive(5)
-check_positive(-3)
+check_positive(-4)
 check_positive(0)
 
 
