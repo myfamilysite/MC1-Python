@@ -7,7 +7,11 @@ print(result)
 
 
 
+def calc_prod (a,b):
+    return a*b
 
+result = calc_prod(3,4)
+print (result)
 
 
 
