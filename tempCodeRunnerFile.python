@@ -1,2 +1,23 @@
-import random
-help(random)
+class Waiter:
+    def __init__(self, name, tables, attitude):
+        self.name = name
+        self.tables = tables
+        self.attitude = attitude
+        
+    def orders (self):
+        print (f"{self.name} is taking orders on table {self.tables}")
+        
+    def payments (self):
+        print (f"{self.name} is handling payments on table {self.tables}")
+        
+
+waiter1 = Waiter("Brian", [4,5], "friendly")
+waiter2 = Waiter("Joe",[1,2,7], "grumpy")
+
+print (waiter1.orders())
+
+print (waiter2.attitude)
+
+print (waiter2.payments())
+    
+    
