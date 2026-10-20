@@ -8,19 +8,19 @@ print(quantity_banana)
 
 # Use the keys() method to print all keys in the dictionary.
 
-keys = fruits.keys()
+all_keys = fruits.keys()
 
-print(keys)
+print(all_keys)
 
 # Use the values() method to print all values in the dictionary.
 
-values = fruits.values()
+all_values = fruits.values()
 
-print(values)
+print(all_values)
 
 # Use the items() method to print all key-value pairs in the dictionary.
 
-items = fruits.items()
+all_items = fruits.items()
 
-print(items)
+print(all_items)
 
