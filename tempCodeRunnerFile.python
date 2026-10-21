@@ -1,23 +1,29 @@
-class Waiter:
-    def __init__(self, name, tables, attitude):
-        self.name = name
-        self.tables = tables
-        self.attitude = attitude
-        
-    def orders (self):
-        print (f"{self.name} is taking orders on table {self.tables}")
-        
-    def payments (self):
-        print (f"{self.name} is handling payments on table {self.tables}")
-        
+class BankAccount:
+    def __init__(self):
+        self.__balance = 0  # Private attribute
 
-waiter1 = Waiter("Brian", [4,5], "friendly")
-waiter2 = Waiter("Joe",[1,2,7], "grumpy")
+    def deposit(self, amount):  # Method
+        """Deposit money into the account."""
+        if amount > 0:
+            self.__balance += amount  # Modify balance safely
+        else:
+            print("Deposit must be positive!")
 
-print (waiter1.orders())
+    def withdraw(self, amount):
+        """Withdraw money from the account."""
+        if 0 < amount <= self.__balance:
+            self.__balance -= amount  # Modify balance safely
+        else:
+            print("Invalid withdrawal!")
 
-print (waiter2.attitude)
+    def get_balance(self):  # Getter method
+        """Get the current balance."""
+        return self.__balance
 
-print (waiter2.payments())
-    
-    
+# Example usage
+
+account = BankAccount()
+account.deposit(100)
+print(account.get_balance())  # Output: 100
+account.withdraw(50)
+print(account.get_balance())  # Output: 50

@@ -22,7 +22,10 @@ class Student:
         return self.__grade
 
     def set_grade(self, grade):
-        self.__grade = grade
+        if 0 <= grade <= 100:
+            self.__grade = grade
+        else:
+            print("Invalid grade! Must be between 0 and 100.")
 
     # Getter for School (Protected)
     def get_school(self):
