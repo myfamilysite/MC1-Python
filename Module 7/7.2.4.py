@@ -1,7 +1,5 @@
 class NegativeNumberError(Exception):
-    def __init__(self, message):
-        self.message = message
-        super().__init__(self.message)
+    pass
 
 try:
    number = int(input("Please enter a number greater than zero: "))
@@ -13,7 +11,7 @@ try:
         print(f"Correct! The number {number} which you entered is greater than zero")
 
 except NegativeNumberError as e:
-   print(f"Error: {e.message}")
+   print(f"Error: {e}")
 
 except ValueError:
     # This catches errors if the user types a letter instead of a number

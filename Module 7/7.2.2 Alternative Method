@@ -1,0 +1,12 @@
+try:
+    with open("data.txt", "r") as file:   #Using a with statement. No need for finally to close the file
+        content = file.read()
+
+except FileNotFoundError:
+    print("File not found.")
+
+
+
+
+
+

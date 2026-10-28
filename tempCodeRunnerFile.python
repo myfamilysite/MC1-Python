@@ -1,29 +1,4 @@
-class BankAccount:
-    def __init__(self):
-        self.__balance = 0  # Private attribute
-
-    def deposit(self, amount):  # Method
-        """Deposit money into the account."""
-        if amount > 0:
-            self.__balance += amount  # Modify balance safely
-        else:
-            print("Deposit must be positive!")
-
-    def withdraw(self, amount):
-        """Withdraw money from the account."""
-        if 0 < amount <= self.__balance:
-            self.__balance -= amount  # Modify balance safely
-        else:
-            print("Invalid withdrawal!")
-
-    def get_balance(self):  # Getter method
-        """Get the current balance."""
-        return self.__balance
-
-# Example usage
-
-account = BankAccount()
-account.deposit(100)
-print(account.get_balance())  # Output: 100
-account.withdraw(50)
-print(account.get_balance())  # Output: 50
+for i in range(3):
+    print("Loop iteration:", i)
+    if i == 1:
+        print("Inside if statement")
