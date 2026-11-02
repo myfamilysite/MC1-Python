@@ -1,5 +1,5 @@
 class NegativeNumberError(Exception):
-    pass
+   pass
 
 try:
    number = int(input("Please enter a number greater than zero: "))

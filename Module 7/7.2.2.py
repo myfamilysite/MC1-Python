@@ -1,16 +1,15 @@
 try:
-    with open("data.txt", "r") as file:
-        content = file.read()
-
+    file = open("data.txt", "r")
+    content = file.read()
+    print(content)
+    
 except FileNotFoundError:
     print("File not found.")
-
+    
 finally:
-    if 'file' in locals(): # use the if statement to check if the file was opened in the first place.
+    if 'file' in locals():
         file.close()
         print("File closed.")
-
-
 
 
 
