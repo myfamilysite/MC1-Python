@@ -1,4 +1,4 @@
-for i in range(3):
-    print("Loop iteration:", i)
-    if i == 1:
-        print("Inside if statement")
+numerator = float(input("Enter the numerator: "))
+denominator = float(input("Enter the denominator: "))
+quotient = numerator / denominator
+print(f"The result is: {quotient}")
